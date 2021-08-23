@@ -29,7 +29,7 @@ func main() {
 		_, err := fmt.Scanln(&originValue)
 
 		if err != nil {
-			printError(err)
+			printError(errReadingInput)
 		}
 
 		if originUnit == "C" {
